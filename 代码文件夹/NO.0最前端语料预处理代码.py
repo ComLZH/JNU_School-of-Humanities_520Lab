@@ -18,7 +18,7 @@ def process_cell(text):
     else:
         return text
 
-# 应用该函数到B列。
+# 应用该函数到B列。注意：其它列名称时需更换“B”为目标列名称。
 df['B'] = df['B'].apply(process_cell)
 
 # 3. 将处理的结果重新填充到读取的单元格。
