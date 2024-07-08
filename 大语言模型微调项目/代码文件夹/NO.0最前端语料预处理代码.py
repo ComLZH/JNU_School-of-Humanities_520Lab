@@ -4,7 +4,7 @@
 import pandas as pd
 
 # 1. 读取Excel文件。
-file_path = 'C:/Users/user/Desktop/6.xlsx'  #注意跨平台的通用性，统一正斜杠/。
+file_path = 'C:/Users/user/Desktop/微调目标格式.xlsx'  #注意跨平台的通用性，统一正斜杠/。
 df = pd.read_excel(file_path, engine='openpyxl')
 
 # 2. 处理B列的单元格。

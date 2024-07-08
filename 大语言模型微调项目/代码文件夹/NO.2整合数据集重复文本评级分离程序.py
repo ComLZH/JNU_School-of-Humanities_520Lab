@@ -3,7 +3,6 @@
 '''
 # 定义一个函数来处理文本文件，它接受输入文件路径和两个输出文件路径作为参数。
 
-
 def process_text_file(input_file_path, output_file1_path, output_file2_path):
     # 初始化两个列表，用于存储将要写入两个输出文件的数据。
     output_data1 = []

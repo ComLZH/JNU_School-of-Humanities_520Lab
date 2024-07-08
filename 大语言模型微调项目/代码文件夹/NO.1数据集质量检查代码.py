@@ -1,9 +1,10 @@
 #数据集质量检查代码：检查重复出现且错误编码的文本数据
+#调整目标格式为稳定excel文件名。2024.07.07
 import pandas as pd
 from collections import Counter
 
 # 读取Excel文件
-df = pd.read_excel('2021combined_data.xlsx')
+df = pd.read_excel('微调目标格式.xlsx')
 
 # 找到A列中所有重复的文本
 duplicates = df[df['文本数据'].duplicated(keep=False)]
